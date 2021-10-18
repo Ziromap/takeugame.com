@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .hero{
     font-size: 48px;
 }
@@ -19,6 +23,7 @@ nav{
     height: 70px;
     background-color: black;
     box-shadow: 0 1px 2px rgb(0, 0, 0, 0.2);
+    opacity: 0.90;
 }
 
 nav .navbar{
@@ -226,7 +231,7 @@ nav .navbar .search-box .input-box input{
     nav .nav-links .sidebar-logo .bx-x{
         color: white;
         font-size: 25px;
-        font-weight: 500;
+        font-weight: 600;
     }
     nav .navbar .bx-menu,
     nav .nav-links .sidebar-logo .logo_name,
@@ -275,9 +280,9 @@ nav .navbar .search-box .input-box input{
     margin-top: 70px;
     /* Tamaño */
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     /* Imagen */
-    background-image: url(../images/bg2.jpg);
+    background-image: url(../images/herobg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
