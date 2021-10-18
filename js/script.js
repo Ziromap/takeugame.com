@@ -23,17 +23,17 @@ menuCloseBtn.addEventListener("click", ()=>{
 });
 
 //sidebar sub menu open and close js code
-let option1Arrow = document.querySelector(".option1-arrow");
-option1Arrow. addEventListener("click", ()=>{
-    navLinks.classList.toggle("show1")
-});
+// let option1Arrow = document.querySelector(".option1-arrow");
+// option1Arrow. addEventListener("click", ()=>{
+//     navLinks.classList.toggle("show1")
+// });
 
-let moreArrow = document.querySelector(".more-arrow");
-moreArrow. addEventListener("click", ()=>{
-    navLinks.classList.toggle("show2")
-});
+// let moreArrow = document.querySelector(".more-arrow");
+// moreArrow. addEventListener("click", ()=>{
+//     navLinks.classList.toggle("show2")
+// });
 
-let option2Arrow = document.querySelector(".option2-arrow");
-option2Arrow. addEventListener("click", ()=>{
-    navLinks.classList.toggle("show3")
-});
+// let option2Arrow = document.querySelector(".option2-arrow");
+// option2Arrow. addEventListener("click", ()=>{
+//     navLinks.classList.toggle("show3")
+// });

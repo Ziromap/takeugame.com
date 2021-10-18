@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.hero{
+    font-size: 48px;
+}
+
 nav{
     position: fixed;
     top: 0;
@@ -256,11 +260,65 @@ nav .navbar .search-box .input-box input{
     nav .navbar .nav-links .links li:hover .option2-arrow{
         transform: rotate(0deg);
     }
-    nav .navbar .navlinks.show1 .links .sub-menu.option-sub-menu{
+    /* nav .navbar .navlinks.show1 .links .sub-menu.option-sub-menu{
         display: block;
     }
 
     nav .navbar .navlinks.show2 .links .more.more-sub-menu{
         display: block;
-    }
+    } */
+}
+
+/* Hero 1 */
+.hero{
+    /* margen de error */
+    margin-top: 70px;
+    /* Tamaño */
+    width: 100vw;
+    height: 80vh;
+    /* Imagen */
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 1em;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+.hero p{
+    font-size: .35em;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+
+.hero .btn-catalogo{
+    display: block;
+    width: 350px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: .40em;
+    padding: 0.75em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s;
+}
+
+.hero .btn-catalogo:hover{
+    background-color: white;
+    color: unset;
 }
