@@ -23,7 +23,7 @@ nav{
     height: 70px;
     background-color: black;
     box-shadow: 0 1px 2px rgb(0, 0, 0, 0.2);
-    opacity: 0.90;
+    opacity: 100;    
 }
 
 nav .navbar{
@@ -279,7 +279,7 @@ nav .navbar .search-box .input-box input{
     /* margen de error */
     margin-top: 70px;
     /* Tamaño */
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     /* Imagen */
     background-image: url(../images/herobg.jpg);
@@ -317,7 +317,6 @@ nav .navbar .search-box .input-box input{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-
     text-decoration: none;
     color: white;
     transition: background 0.3s;
@@ -326,4 +325,69 @@ nav .navbar .search-box .input-box input{
 .hero .btn-catalogo:hover{
     background-color: white;
     color: unset;
+}
+
+.best-games h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.background1-left-column{
+    background: linear-gradient(100deg, #161616, black);
+}
+
+.container{
+    display: flexbox;
+}
+
+.card{
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 30rem;
+    height: 13rem;
+    justify-content: center;
+}
+
+.card h2, h6{
+    color: white;
+    margin: .5rem 0;
+}
+
+.left-column{
+    background-image: url(../images/warzone.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column p{
+    font-size: .6rem;
+    color: white;
+}
+
+.btn-ver-mas{
+    font-size: .8rem;
+    padding: .8rem 1,5rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
 }
